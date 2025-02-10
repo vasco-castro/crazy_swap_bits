@@ -6,7 +6,7 @@
 /*   By: vsoares- <vsoares-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 21:55:38 by vsoares-          #+#    #+#             */
-/*   Updated: 2025/02/10 23:00:33 by vsoares-         ###   ########.fr       */
+/*   Updated: 2025/02/10 23:02:19 by vsoares-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,11 +42,6 @@ const char	swap_bits(const char octet)
 	}
 	return (c);
 }
-
-// const char	swap_bits(const char octet)
-// {
-// 	return (shift_4_bits(ctob((char) octet)));
-// }
 
 int	main(void)
 {
